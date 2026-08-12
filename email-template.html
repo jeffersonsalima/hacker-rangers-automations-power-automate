@@ -1,0 +1,65 @@
+<!-- PRE HEADER -->
+<div style="display:none; font-size:1px; color:#ffffff; line-height:1px; max-height:0px; max-width:0px; opacity:0; overflow:hidden;">
+  Sua participação é essencial para a segurança da nossa empresa.
+</div>
+
+<table cellpadding="0" cellspacing="0" border="0" style="border:1px solid #dddddd; font-family:'Segoe UI', Arial, sans-serif; background-color:#ffffff; width:100%; max-width:600px; margin:0 auto; border-collapse:collapse;">
+  <tbody>
+    <!-- HEADER -->
+    <tr>
+      <td style="background-color:#13538A; text-align:center; color:#ffffff; padding:20px 15px; font-family:'Segoe UI', Arial, sans-serif;">
+        <h1 style="font-size:24px; font-weight:bold; margin:0; padding:0; color:#ffffff; font-family:'Segoe UI', Arial, sans-serif;">SUA GERÊNCIA AQUI</h1>
+        <h2 style="font-size:18px; font-weight:normal; margin:8px 0 0 0; padding:0; color:#ffffff; font-family:'Segoe UI', Arial, sans-serif;">SUA ÁREA AQUI</h2>
+      </td>
+    </tr>
+
+    <!-- TITULO DAS MISSÕES -->
+    <tr>
+      <td style="text-align:center; padding:20px 20px 10px 20px; font-family:'Segoe UI', Arial, sans-serif;">
+        <h3 style="font-size:22px; font-weight:bold; color:#d93b3b; margin:0; padding:0; font-family:'Segoe UI', Arial, sans-serif;">Sua Atenção é Necessária! 🎯</h3>
+        <h4 style="font-size:18px; font-weight:bold; color:#00B050; margin:5px 0 0 0; padding:0; font-family:'Segoe UI', Arial, sans-serif;">Plataforma Hacker Rangers</h4>
+      </td>
+    </tr>
+
+    <!-- CORPO DO RECADOS E MÉTRICAS -->
+    <tr>
+      <td style="background-color:#f9f9f9; text-align:center; padding:15px 25px; font-family:'Segoe UI', Arial, sans-serif;">
+        <p style="font-size:18px; font-weight:bold; color:#004B8F; margin:10px 0; font-family:'Segoe UI', Arial, sans-serif;">
+          Olá, <strong>@{items('Para_Cada_Usuário')?['GivenName']}</strong> 👾
+        </p>
+
+        <p style="font-size:16px; font-weight:bold; color:#e69800; margin:15px 0; line-height:1.4; font-family:'Segoe UI', Arial, sans-serif;">
+          Você possui <strong style="font-size:18px; color:#d93b3b;">@{string(outputs('Total_Cursos_Pendentes'))}</strong> curso(s) e <strong style="font-size:18px; color:#d93b3b;">@{string(outputs('Total_Quizzes_Pendentes'))}</strong> quiz(zes) pendente(s) aguardando conclusão!
+        </p>
+
+        <p style="font-size:15px; color:#004B8F; margin:15px 0; line-height:1.5; font-family:'Segoe UI', Arial, sans-serif;">
+          <strong>Cibersegurança é uma responsabilidade de todos! 🔐</strong><br>
+          Garanta seus pontos na temporada e ajude a manter a <strong>nossa empresa segura! 🛡️</strong>
+        </p>
+
+        <!-- BOTAO DE AÇÃO (AJUSTADO E COMPACTO) -->
+        <table cellpadding="0" cellspacing="0" border="0" align="center" style="margin:20px auto;">
+  <tbody>
+    <tr>
+      <td style="background-color:#004B8F; border-radius:6px; padding:12px 28px; text-align:center;">
+        <a href="https://suaempresa.hackerrangers.com" style="color:#ffffff; font-size:15px; font-weight:bold; text-decoration:none; display:inline-block; font-family:'Segoe UI', Arial, sans-serif; white-space:nowrap;">🚀 Acesse a plataforma Hacker Rangers</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+        <p style="font-size:14px; font-weight:bold; color:#d93b3b; margin:20px 0 5px 0; font-family:'Segoe UI', Arial, sans-serif;">
+          📅 A temporada atual se encerra em <strong>@{outputs('Temporada')}</strong>! ⌛
+        </p>
+      </td>
+    </tr>
+
+    <!-- RODAPÉ -->
+    <tr>
+      <td style="background-color:#A9B533; text-align:center; padding:15px 20px; font-family:'Segoe UI', Arial, sans-serif;">
+        <p style="margin:0 0 5px 0; font-size:14px; font-weight:bold; color:#FFFFFF; font-family:'Segoe UI', Arial, sans-serif;">👾 Relatório das suas missões, entregue! 👾</p>
+        <p style="margin:0; font-size:13px; font-weight:bold; color:#FFFFFF; font-family:'Segoe UI', Arial, sans-serif;">@{formatDateTime(convertTimeZone(utcNow(), 'UTC', 'E. South America Standard Time'), 'dd/MM/yyyy "às" HH:mm:ss')}</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
