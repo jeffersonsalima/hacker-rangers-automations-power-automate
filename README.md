@@ -62,7 +62,6 @@ Para alimentar as métricas do e-mail e do card adaptável no Power Automate, ut
 ## 👤 Autor
 
 Desenvolvido por **Jefferson Lima**  
-*Especialista em Automação de Processos & Segurança da Informação*
 
 Projeto construído para otimizar o engajamento das campanhas de conscientização em cibersegurança e cultura de segurança corporativa.
 
