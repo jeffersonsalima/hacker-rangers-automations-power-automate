@@ -56,14 +56,3 @@ Para alimentar as métricas do e-mail e do card adaptável no Power Automate, ut
     </td>
   </tr>
 </table>
-
----
-
-## 👤 Autor
-
-Desenvolvido por **Jefferson Lima**  
-
-Projeto construído para otimizar o engajamento das campanhas de conscientização em cibersegurança e cultura de segurança corporativa.
-
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/jeffersonsalima)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/jeffersonsalima)
