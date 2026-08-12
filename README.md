@@ -7,7 +7,7 @@
 
 # Hacker Rangers - Notificações de Pendências via Power Automate
 
-Repositório contendo os templates otimizados para automação de notificações de missões pendentes na plataforma Hacker Rangers, integrados via Microsoft Power Automate.
+Repositório contendo os templates otimizados para automação de notificações de ações pendentes na plataforma Hacker Rangers, integrados via Microsoft Power Automate.
 
 ---
 
